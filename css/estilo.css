@@ -1,0 +1,122 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+.operacoesResultado,.operacoes,.numeros,.vl_operacoes,.result,.nmConta,.conta,body
+{
+display:flex;
+}
+
+.operacoesResultado,.vl_operacoes,body
+{
+	justify-content: center;
+}
+
+.result,body
+{
+	align-items:center;
+}
+
+.valor,.operacao, .operacaoControle,body
+{
+	color:white;
+}
+
+body
+{
+	
+	width:100v;
+	height:100vh;
+	background-color: #050505e0;
+}
+
+.calc
+{
+	width:20rem;
+	height:31rem;
+	background-color:#000000 ;
+	border-radius: 5px;
+	border-bottom:1rem solid  #1906c7;
+	box-shadow: 0px 5px 15px 1px  #050505e5;  ;
+}
+
+.result
+{	
+	flex-direction: column;
+	margin: 1.5rem auto;
+	flex-wrap: wrap;
+	width:18rem;
+	height:5rem;
+	background-color: #161616d2 ;
+	border-radius: 5px;
+}
+
+.conta,.nmConta
+{
+	width:16rem;
+	height:2rem;
+	align-items: center;
+}
+
+.conta
+{
+ font-size:0.9rem;
+}
+.nmConta
+{
+ font-size:1.7rem;
+}
+
+.vl_operacoes
+{
+	
+	margin-top:1rem;
+	width:18rem;
+	height:15rem;
+	padding:0px 10px 10px 10px;	
+}
+
+.numeros
+{	
+	display:flex;
+	margin-left:1.4rem;
+	flex-direction: row;
+	width:14rem;
+	height:15rem;
+	flex-wrap: wrap;
+}
+
+.operacoes
+{
+	
+	display:flex;
+	flex-wrap: wrap;
+	width:5rem;
+	height:10rem;
+	
+}
+
+.valor,.operacao, .operacaoControle
+{       
+	border-color:#201f1f;
+	font-size: 1.2rem;
+	width:3rem;
+	height:3rem;
+	margin:0.5rem;
+	outline:none;
+	background-color:#131212;
+}
+
+.valor:last-child
+{
+	display:block;
+	margin:5px auto;
+    width:8rem;
+}
+
+.operacoesResultado
+{	
+	align-items: flex-end;
+}
